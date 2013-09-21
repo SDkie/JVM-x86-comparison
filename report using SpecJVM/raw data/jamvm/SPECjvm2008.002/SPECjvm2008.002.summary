@@ -1,0 +1,10 @@
+Report:      SPECjvm2008 Peak summary
+Result:      Noncompliant composite result: 4.95 ops/m
+HW Model:    n/a, n/a
+HW CPU:      n/a, n/a
+OS:          Linux
+JVM:         Robert Lougher, JamVM, 1.5.4
+JVM tuning:  n/a
+JVM startup:  
+Tester:      root, n/a
+Run date:    Sun Jul 21 20:15:12 LKT 2013

@@ -1,0 +1,61 @@
+
+SPECjvm2008 Peak
+  Properties file:   none
+  Benchmarks:        compress
+
+  WARNING: Run will not be compliant.
+  Property specjvm.iteration.time must be at least 240 seconds for publication.
+  Not a compliant sequence of benchmarks for publication.
+
+  Kit signature and checksum is validated.
+  This can take several minutes.
+  Use argument '-ikv' to skip this.
+  ....................................passed.
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   check
+  Run mode:    static run
+  Test type:   functional
+  Threads:     1
+  Iterations:  1
+  Run length:  1 operation
+
+Iteration 1 (1 operation) begins: Sun Jul 21 20:15:50 LKT 2013
+Iteration 1 (1 operation) ends:   Sun Jul 21 20:15:51 LKT 2013
+Iteration 1 (1 operation) result: PASSED
+
+Valid run!
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   compress
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      5s
+  Iterations:  1
+  Run length:  5s
+
+Warmup (5s) begins: Sun Jul 21 20:15:51 LKT 2013
+Warmup (5s) ends:   Sun Jul 21 20:16:39 LKT 2013
+Warmup (5s) result: 4.90 ops/m
+
+Iteration 1 (5s) begins: Sun Jul 21 20:16:39 LKT 2013
+Iteration 1 (5s) ends:   Sun Jul 21 20:17:26 LKT 2013
+Iteration 1 (5s) result: 4.95 ops/m
+
+Valid run!
+Score on compress: 4.95 ops/m
+
+Results are stored in: 
+/home/komal/Desktop/GSOC/benchmark/SpecVM/results/SPECjvm2008.002/SPECjvm2008.002.raw
+Generating reports in:
+/home/komal/Desktop/GSOC/benchmark/SpecVM/results/SPECjvm2008.002
+Problems...
+Problems...
+Problems...
+Problems...
+
+Noncompliant composite result: 4.95 ops/m
